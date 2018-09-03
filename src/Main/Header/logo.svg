@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.972 41.974">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0a055f;
+      }
+
+      .cls-2 {
+        fill: #ff4114;
+      }
+    </style>
+  </defs>
+  <g id="logo" transform="translate(0 -0.014)">
+    <path id="Fill_1" data-name="Fill 1" class="cls-1" d="M20.986,0,0,10.669v4.573L20.986,4.573,41.972,15.242V10.669Z" transform="translate(0 0.014)"/>
+    <path id="Fill_2" data-name="Fill 2" class="cls-1" d="M3.554,3.218H8.631V13.548h3.554V0H0V13.548H3.554Z" transform="translate(0 16.611)"/>
+    <path id="Fill_3" data-name="Fill 3" class="cls-1" d="M0,0V13.548H5.416L9.985,2.789V13.548h3.554V0H8.124L3.554,10.759V0Z" transform="translate(13.878 16.611)"/>
+    <path id="Fill_4" data-name="Fill 4" class="cls-1" d="M0,0V13.548H3.554V9.2L4.6,8.169l4.032,5.38h4.231L7.029,5.766,12.862,0H8.293L3.554,5.081V0Z" transform="translate(29.11 16.611)"/>
+    <path id="Fill_5" data-name="Fill 5" class="cls-2" d="M0,2.561H1.731L.866,0Z" transform="translate(4.84 34.888)"/>
+    <g id="Group_14" data-name="Group 14" transform="translate(0 31.81)">
+      <path id="Fill_6" data-name="Fill 6" class="cls-2" d="M.736.042a7.01,7.01,0,0,1-.7,3.314L0,3.418H2.309V0H.737Z" transform="translate(28.476 3.416)"/>
+      <path id="Fill_8" data-name="Fill 8" class="cls-2" d="M1.538,0H0V1.525H1.538A.742.742,0,0,0,2.37.762.742.742,0,0,0,1.538,0" transform="translate(10.77 3.361)"/>
+      <path id="Fill_10" data-name="Fill 10" class="cls-2" d="M41.972,10.161H0V0H41.972V10.16ZM26.687,6.818V9.4h1.269V7.918h3.471V9.4H32.7V6.818H32.06L32,2.243H28.041V3.388A5.984,5.984,0,0,1,27.194,6.8l-.013.019Zm8.678-4.575L33.28,7.918h1.346l.4-1.2H37.5l.4,1.2h1.347L37.168,2.243Zm-14.549,0V7.918h1.269V5.631H24.57V7.918h1.27V2.243H24.57V4.53H22.085V2.243ZM4.8,2.243,2.718,7.918H4.065l.4-1.2H6.943l.4,1.2H8.691L6.607,2.243Zm10.442,0V7.918h4.466V6.763h-3.2V5.631H19.4V4.53H16.515V3.4h3.2V2.243Zm-5.746,0V7.918h1.269V5.97h1.707a2.12,2.12,0,0,0,1.407-.463,1.776,1.776,0,0,0,.582-1.4,1.78,1.78,0,0,0-.582-1.4,2.123,2.123,0,0,0-1.407-.463Z" transform="translate(0 0.017)"/>
+      <path id="Fill_12" data-name="Fill 12" class="cls-2" d="M0,2.561H1.731L.866,0Z" transform="translate(35.401 3.077)"/>
+    </g>
+  </g>
+</svg>
