@@ -92,14 +92,16 @@ const Note = styled.div`
   ${media.sm`
     order: 2;
 
-    margin-left: 25px;
-    margin-right: -65px;
+    margin-left: 15px;
     margin-bottom: 0;
     
     color: #333333;
   `};
 
   ${media.md`
+    margin-left: 25px;
+    margin-right: -65px;
+
     font-size: 17px;
     line-height: 25px;
   `};
