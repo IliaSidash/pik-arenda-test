@@ -1,10 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import media from '../../style-utils';
 import logo from './logo.svg';
 
 const Header = styled.header`
-  box-shadow: 0 1px 5px rgba(77, 77, 77, 0.5);
+  padding: 14px 0 15px;
+  background-color: #fffefe;
+  border-bottom: solid 1px #d9d9d9;
+
+  ${media.lg`
+    padding: 0;
+    box-shadow: 0 1px 5px rgba(77, 77, 77, 0.5);
+    border-bottom: none;
+    background-color:#ffffff;
+  `};
 `;
 
 const Container = styled.div`
@@ -20,15 +30,21 @@ const Logo = styled.img`
 `;
 
 const User = styled.div`
-  margin-right: 72px;
+  display: none;
+  margin-right: 65px;
 
   font-family: 'GraphikLCG-Medium';
   font-size: 14px;
+
+  ${media.lg`
+    display: block;
+  `};
 `;
 
 const Nav = styled.nav`
   position: relative;
 
+  display: none;
   flex-grow: 1;
   padding-left: 60px;
 
@@ -44,17 +60,22 @@ const Nav = styled.nav`
 
     background-color: #000;
   }
+
+  ${media.lg`
+    display: block;
+  `};
 `;
 
 const Link = styled.a`
   display: inline-block;
-  margin-right: 24px;
+  margin-right: 31px;
 
   font-family: 'GraphikLCG-Medium';
   font-size: 12px;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 70px;
+  letter-spacing: 1px;
+  line-height: 68px;
   color: ${props => (props.active ? '#4285F4' : 'inherit')};
 
   border-bottom: 2px solid ${props => (props.active ? '#4285F4' : 'transparent')};
@@ -65,16 +86,51 @@ const Link = styled.a`
 `;
 
 const Btn = styled.a`
-  display: inline-block;
-  padding: 0 41px;
+  display: none;
+  padding: 0 25px;
 
   font-size: 12px;
-  line-height: 40px;
+  line-height: 38px;
   text-decoration: none;
   color: #9b9b9b;
 
   border: 1px solid #9b9b9b;
   border-radius: 4px;
+
+  ${media.lg`
+    display: block;
+  `};
+`;
+
+const Burger = styled.div`
+  position: relative;
+
+  width: 25px;
+  height: 14px;
+  margin-left: auto;
+
+  :after,
+  :before {
+    content: '';
+    position: absolute;
+    left: 0;
+
+    width: 100%;
+    height: 4px;
+
+    background-color: #4d4d4d;
+  }
+
+  :after {
+    top: 0;
+  }
+  :before {
+    bottom: 0;
+  }
+
+  ${media.lg`
+    display: none;
+  `};
 `;
 
 export default () => (
@@ -89,6 +145,7 @@ export default () => (
         </Link>
       </Nav>
       <Btn href="/">Выйти</Btn>
+      <Burger />
     </Container>
   </Header>
 );
