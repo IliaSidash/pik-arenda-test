@@ -18,23 +18,3 @@
   src: url("static/fonts/LabGrotesque-Regular.woff2") format("woff2"),
     url("static/fonts/LabGrotesque-Regular.woff") format("woff");
 }
-@font-face {
-  font-family: "SFProDisplay-Medium";
-  src: url("static/fonts/SFProDisplay-Medium.woff2") format("woff2"),
-    url("static/fonts/SFProDisplay-Medium.woff") format("woff");
-}
-@font-face {
-  font-family: "MuseoSansCyrl-500";
-  src: url("static/fonts/MuseoSansCyrl-500.woff2") format("woff2"),
-    url("static/fonts/MuseoSansCyrl-500.woff") format("woff");
-}
-@font-face {
-  font-family: "MuseoSansCyrl-700";
-  src: url("static/fonts/MuseoSansCyrl-700.woff2") format("woff2"),
-    url("static/fonts/MuseoSansCyrl-700.woff") format("woff");
-}
-@font-face {
-  font-family: "MuseoSansCyrl-900";
-  src: url("static/fonts/MuseoSansCyrl-900.woff2") format("woff2"),
-    url("static/fonts/MuseoSansCyrl-900.woff") format("woff");
-}
